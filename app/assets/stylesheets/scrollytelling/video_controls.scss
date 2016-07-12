@@ -12,6 +12,11 @@ $scrollytelling-video_controls-background-color: #b2cecf !default;
   border: none;
 }
 
+.js .vjs-progress-control .vjs-progress-holder,
+.js .vjs-progress-control.vjs-fade-out .vjs-progress-holder {
+  border-radius: 0;
+}
+
 .js .vjs-progress-control .vjs-play-progress,
 .js .vjs-progress-control.vjs-fade-out .vjs-play-progress {
   border-radius: 0 ;
@@ -19,6 +24,7 @@ $scrollytelling-video_controls-background-color: #b2cecf !default;
 }
 
 .js .vjs-play-control {
+  margin-left: 20px;
   background-image: image-url('scrollytelling/video_controls.png');
 }
 
@@ -27,7 +33,7 @@ $scrollytelling-video_controls-background-color: #b2cecf !default;
 }
 
 .js .vjs-slider-handle {
-  background-image: none;
+  display: none;
 }
 
 .controls .add_info_box:before {
