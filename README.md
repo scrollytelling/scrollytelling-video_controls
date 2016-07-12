@@ -1,24 +1,22 @@
 # Scrollytelling::VideoControls
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/scrollytelling/video_controls`. To experiment with that code, run `bin/console` for an interactive prompt.
+Replace the built-in [Pageflow](https://github.com/codevise/pageflow) video controls with our version.
 
-TODO: Delete this and the text above, and describe your gem
+## Hack Attack!
+
+This plugin just overrides some CSS that is present in a default Pageflow install. It's not guaranteed to work at all. This is why the version check for this gem is a little more strict than usual. If you can install this gem, then it will work, provided you followed the normal Pageflow installation instructions.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add this line to your application's Gemfile, _after_ `pageflow`:
 
 ```ruby
 gem 'scrollytelling-video_controls'
 ```
 
-And then execute:
+Bundle the plugin with your application by typing this on the command line:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install scrollytelling-video_controls
 
 ## Usage
 

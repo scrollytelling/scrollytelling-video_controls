@@ -1,7 +1,6 @@
-require "scrollytelling/video_controls/version"
+require "scrollytelling/video_controls/engine"
 
 module Scrollytelling
   module VideoControls
-    # Your code goes here...
   end
 end
