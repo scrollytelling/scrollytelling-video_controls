@@ -1,6 +1,8 @@
 # Scrollytelling::VideoControls
 
-Replace the built-in [Pageflow](https://github.com/codevise/pageflow) video controls with our version.
+Replace the built-in [Pageflow](https://github.com/codevise/pageflow) video controls with the [Scrollytelling](https://www.scrollytelling.io) version. Our version is much more minimal.
+
+Sadly the images are not retina and some control colors are hard coded. We left it like that, to deviate from Pageflow as less as possible. We hope we will be able to improve this in a new version.
 
 ## Hack Attack!
 
