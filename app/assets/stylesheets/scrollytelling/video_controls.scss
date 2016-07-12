@@ -1,0 +1,38 @@
+$scrollytelling-video_controls-background-color: #b2cecf !default;
+
+/* override styles exactly from the inspector panel,
+   to ensure we use the exact same specificity. */
+
+.js .vjs-control-bar {
+  border: none;
+  background: none;
+}
+
+.js  .vjs-control-bar:before {
+  border: none;
+}
+
+.js .vjs-progress-control .vjs-play-progress,
+.js .vjs-progress-control.vjs-fade-out .vjs-play-progress {
+  border-radius: 0 ;
+  background-color: $scrollytelling-video_controls-background-color;
+}
+
+.js .vjs-play-control {
+  background-image: image-url('scrollytelling/video_controls.png');
+}
+
+.js .vjs-default-skin .vjs-loading-spinner {
+  display: none !important;
+}
+
+.js .vjs-slider-handle {
+  background-image: none;
+}
+
+.controls .add_info_box:before {
+  background-color: $scrollytelling-video_controls-background-color;
+  border: none;
+  opacity: 0.1;
+  border-radius: 0;
+}

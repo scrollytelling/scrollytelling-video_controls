@@ -20,7 +20,17 @@ Bundle the plugin with your application by typing this on the command line:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add it to the asset pipeline:
+
+```
+# Optionally, change the default highlight color.
+$scrollytelling-video_controls-background-color: #b2cecf !default;
+
+# app/assets/stylesheets/pageflow/application.css.scss
++@import "scrollytelling/video_controls";
+```
+
+Note that you're adding it to the application stylesheet and not one of your theme stylesheets. The Pageflow video controls are included in the application stylesheet, which comes after your themes.
 
 ## Development
 
