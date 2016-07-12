@@ -29,7 +29,7 @@ Add it to the asset pipeline:
 $scrollytelling-video_controls-background-color: #b2cecf !default;
 
 # app/assets/stylesheets/pageflow/application.css.scss
-+@import "scrollytelling/video_controls";
+@import "scrollytelling/video_controls";
 ```
 
 Note that you're adding it to the application stylesheet and not one of your theme stylesheets. The Pageflow video controls are included in the application stylesheet, which comes after your themes.
